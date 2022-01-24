@@ -1,0 +1,22 @@
+/*========= VARIABLES ===============*/
+
+.shadow {
+   background: radial-gradient(ellipse at bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0) 70%);
+   width: 50% !important;
+   height: 15px;
+}
+
+$font: 'Urbanist', sans-serif;
+$transition: 0.3s;
+$box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .3), 0 2px 4px rgba(0, 0, 0, .1);
+
+$white: #ffffff;
+$black: #000000;
+
+$primary-1: #28a1a1;
+$primary-1a: #28a1a198;
+
+$secondary-1: rgba($color: $black, $alpha: .35);
+$secondary-2: rgba($color: $primary-1, $alpha: .7);
+$secondary-3: rgba($color: $black, $alpha: .55);
+$secondary-4: rgba(0, 0, 0, .7);

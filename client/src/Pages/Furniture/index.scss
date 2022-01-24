@@ -1,0 +1,23 @@
+@import '../../variables';
+
+.__furniture {
+   .categories {
+      .inner {
+         border-radius: 3rem;
+         padding: .8rem 2rem;
+         border: 1px solid $primary-1;
+         transition: $transition;
+         cursor: pointer;
+         color: $black;
+         h3 {
+            font-size: 1rem;
+         }
+         &:hover {
+            transform: scale(1.05);
+            background: $primary-1a;
+            color: $white;
+            border: 1px solid transparent;
+         }
+      }
+   }
+}

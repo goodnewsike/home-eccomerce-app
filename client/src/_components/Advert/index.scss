@@ -1,0 +1,12 @@
+@import '../../variables';
+
+.advert {
+   height: 60vh;
+   .inner {
+      background-image: url('../../_assets/images/10.jpg');
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+   }
+}

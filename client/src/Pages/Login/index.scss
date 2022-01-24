@@ -1,0 +1,62 @@
+@import '../../variables';
+
+.wrapper {
+   background-image: url('../../_assets/images/10.jpg');
+   background-position: center;
+   background-size: cover;
+   .login {
+      height: 100vh;
+      width: 100%;
+   
+      .contents {
+         width: 23rem;
+         background: $secondary-1;
+         border-radius: 12px;
+         overflow: hidden;
+         backdrop-filter: blur(13px);
+         .__form {
+            h5 {
+               font-size: 1.2rem;
+               color: $white;
+            }
+            .input {
+               border-radius: 6px;
+               padding: .8rem 1.5rem;
+               color: $white;
+               background: transparent;
+               border: 1px solid $white !important;
+
+               &::placeholder {
+                  color: $white;
+               }
+            }
+            .login-btn, .regi {
+               font-weight: 600;
+               color: $white;
+               padding: .6rem 2rem;
+               border-radius: 6px;
+               border: 1px solid $white;
+               transition: $transition;
+               &:hover {
+                  background: $white;
+                  color: #222;
+               }
+            }
+            .reset-password, .reg, .agreement, .log {
+               color: $white;
+               font-weight: 200;
+               a {
+                  color: $primary-1;
+                  transition: $transition;
+                  &:hover {
+                     color: $primary-1a;
+                  }
+               }
+            }
+            .agreement {
+               font-size: .82rem;
+            }
+         }
+      }
+   }
+}
