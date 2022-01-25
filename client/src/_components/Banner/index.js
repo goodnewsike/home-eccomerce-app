@@ -63,7 +63,11 @@ const Banner = () => {
          <div className="container-fluid __container h-100 position-absolute d-flex align-items-center justify-content-center">
             <div className="container d-flex align-items-center justify-content-center">
                <div className="row m-0 content">
-                  <article className="inner text d-flex flex-column align-items-center justify-content-center">content here...</article>
+                  <article className="inner text-center d-flex flex-column align-items-center justify-content-center">
+                     <h1>Welcome to The Realty App</h1>
+                     <p>Get only the best at pocket friendly cost</p>
+                     <button className="quick-access my-3">Quick access...</button>
+                  </article>
                </div>
             </div>
          </div>

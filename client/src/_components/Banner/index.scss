@@ -20,7 +20,19 @@
       background: $secondary-4 !important;
 
       .inner {
-         
+         color: $white;
+         .quick-access {
+            color: $white;
+            font-weight: 600;
+            border-radius: 4px;
+            padding: .8rem 1.2rem;
+            background: $primary-1;
+            transition: $transition;
+
+            &:hover {
+               background: $primary-1a;
+            }
+         }
       }
    }
 }

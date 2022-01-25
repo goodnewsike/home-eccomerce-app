@@ -10,6 +10,9 @@
       height: 4.5rem;
       background: $secondary-1;
 
+      .burger-menu {
+         display: none;
+      }
       .logo {
          font-size: 1.3rem;
          font-weight: 600;
@@ -67,6 +70,40 @@
             .icon {
                color: $white;
                transform: scale(1.3);
+            }
+         }
+      }
+
+      @media screen and (max-width: 576px) {
+         .container {
+            padding-left: 3rem !important;
+            padding-right: 3rem !important;
+         }
+      }
+      @media screen and (max-width: 767px) {
+         .contact-us, .btns {
+            display: none;
+         }
+         .burger-menu {
+            display: block;
+            .menu-icon {
+               transform: scale(1.5);
+               cursor: pointer;
+            }
+         }
+         .mobile-menu {
+            top: 100%;
+            left: 0;
+            right: 50%;
+            border-radius: 8px;
+            background: #777;
+            .contents {
+               button {
+                  .login, .signup {
+                     color: #222;
+                     font-weight: 600;
+                  }
+               }
             }
          }
       }
